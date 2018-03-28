@@ -18,7 +18,7 @@ if __name__ == "__main__":
     for comb in cr.combinations[:75]:
         links = cr.to_links(comb)
 
-        print(f"\n\n{comb}")
+        print(f"\n{comb}")
         print(links)
 
     print("\n\n\n\n\n\n\n\n\n\n")
