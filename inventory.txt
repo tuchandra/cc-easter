@@ -1,0 +1,159 @@
+
+Egg Fragment (1a)
+x4
+    
+
+Egg Fragment (2a)
+x5
+    
+
+Egg Fragment (3a)
+x20
+    
+
+Egg Fragment (4a)
+x11
+
+Egg Fragment (5a)
+x9
+    
+
+Egg Fragment (6a)
+x14
+    
+
+Egg Fragment (7a)
+x11
+    
+
+Egg Fragment (8a)
+x15
+    
+
+Egg Fragment (1b)
+x23
+
+Egg Fragment (2b)
+x8
+    
+
+Egg Fragment (3b)
+x14
+    
+
+Egg Fragment (4b)
+x5
+    
+
+Egg Fragment (5b)
+x8
+    
+
+Egg Fragment (6b)
+x28
+
+Egg Fragment (7b)
+x3
+    
+
+Egg Fragment (8b)
+x13
+    
+
+Egg Fragment (1c)
+x19
+    
+
+Egg Fragment (2c)
+x2
+    
+
+Egg Fragment (3c)
+x15
+
+Egg Fragment (4c)
+x19
+    
+
+Egg Fragment (5c)
+x7
+    
+
+Egg Fragment (6c)
+x18
+    
+
+Egg Fragment (7c)
+x1
+    
+
+Egg Fragment (8c)
+x10
+
+Egg Fragment (9c)
+x10
+    
+
+Egg Fragment (1d)
+x24
+    
+
+Egg Fragment (2d)
+x15
+    
+
+Egg Fragment (4d)
+x3
+    
+
+Egg Fragment (5d)
+x4
+
+Egg Fragment (6d)
+x23
+    
+
+Egg Fragment (7d)
+x2
+    
+
+Egg Fragment (8d)
+x10
+    
+
+Egg Fragment (9d)
+x17
+    
+
+Egg Fragment (1e)
+x9
+
+Egg Fragment (2e)
+x27
+    
+
+Egg Fragment (3e)
+x11
+    
+
+Egg Fragment (4e)
+x20
+    
+
+Egg Fragment (5e)
+x13
+    
+
+Egg Fragment (6e)
+x10
+
+Egg Fragment (7e)
+x14
+    
+
+Egg Fragment (8e)
+x12
+    
+
+Egg Fragment (9e)
+x9
