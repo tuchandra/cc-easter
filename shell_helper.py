@@ -132,11 +132,11 @@ class CombinationsReader(Reader):
         return chars
 
     def to_links(self, s: str) -> str:
-        """Convert a combination to a list of links.
+        """Convert a combination to a string of HTML links.
 
          e.g., 1a is http://www.clickcritters.com/iteminfo.php?itemid=437
-              2a is http://www.clickcritters.com/iteminfo.php?itemid=438
-              ...
+               2a is http://www.clickcritters.com/iteminfo.php?itemid=438
+               ...
 
         If you map the letters a = 0, b = 1, ... , e = 5, and you have
         the numbers 1 through 9, then the item ID is given by
@@ -155,7 +155,7 @@ class CombinationsReader(Reader):
             item_id: int = 436 + 9 * letter + number
             item_name: str = str(i + 1) + c
 
-            links += f'<a href="{url_base}{item_id}">{item_name}</a>'
+            links += f'<a href="{url_base}{item_id}">{item_name}</a> '
 
         return links
 
@@ -257,7 +257,7 @@ class InventoryReader(Reader):
         differences: Counter = Counter(cr.shells)
         differences.subtract(self.shells)
 
-        print("These are the shells you still need:")
+        print("\nThese are the shells you still need:")
         for shell, num in differences.most_common():
             if num > 0:
                 print(f"{shell}: you need {num} more ({cr.shells[shell]} total)")
