@@ -36,3 +36,29 @@ Both files require Python >= 3.6 (f-strings!).
 `python generate_links.py` (requires the existence of `all_combinations.txt`)
 
 Neither script does any error handling, because these were made for personal use only. I also don't know anything about how to properly package Python modules, so the organization could likely be better. But that's all part of learning!
+
+## Example Usage
+
+```
+$ python shell_helper.py
+
+Finished reading combinations from file.
+You need these fragments: Counter({'3d': 6, '9b': 4, '4e': 4, '5a': 3, '6a': 3, '2c': 3, '9a': 3, '1a': 2, '7e': 2, '8d': 2, '8b': 2, '7c': 2, '1d': 2, '5e': 2, '8a': 2, '2e': 2, '6c': 2, '7b': 2, '2d': 1, '4b': 1, '1c': 1, '5b': 1, '6d': 1, '1b': 1, '2b': 1, '3e': 1, '4d': 1, '8e': 1, '6e': 1, '7a': 1, '5c': 1, '1e': 1, '4a': 1})
+
+Finished reading inventory from file.
+You have these fragments: Counter({'1b': 33, '6b': 31, '4e': 29, '3a': 27, '6c': 27, '2e': 26, '9d': 25, '6d': 23, '1d': 22, '3b': 20, '4c': 20, '2d': 20, '5e': 20, '3c': 18, '8a': 17, '8b': 17, '7e': 17, '1c': 16, '9c': 16, '3e': 16, '7a': 15, '8e': 15, '4a': 14, '6a': 13, '2b': 13, '8c': 12, '1e': 12, '6e': 11, '2a': 10, '4b': 10, '5c': 10, '9e': 10, '8d': 9, '1a': 8, '5a': 8, '5b': 8, '7d': 7, '7b': 5, '4d': 5, '9b': 4, '2c': 3, '5d': 3, '9a': 2, '7c': 2})
+
+You can make bbedaaceb with 1b 2b 3e 4d 5a 6a 7c 8e 9b
+
+These are the shells you still need:
+3d: you need 6 more (6 total)
+9a: you need 1 more (3 total)
+
+These are the shells you have extras of:
+7b: you have 3 extra (5 total)
+5d: you have 3 extra (3 total)
+4d: you have 4 extra (5 total)
+5a: you have 5 extra (8 total)
+1a: you have 6 extra (8 total)
+[ ... snipped the rest of this ... ]
+```
