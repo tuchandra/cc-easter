@@ -11,7 +11,7 @@ Upon playing the event, I made several observations:
  - knowing if you have the right fragments to make a particular combination is difficult
  - navigating from the combination (daddecbca) to the inventory pages for each fragment is difficult
 
-*N.B. These difficulties were alleviated with a site update on 3/29/2018, but I noticed this and completed the event prior to that.*
+*N.B. These difficulties were alleviated with a site update on 3/29/2018, but I wrote these and completed the event prior to that.*
 
 ## Purpose
 One script, `shell_helper.py`, figures out (1) what combinations I needed and what fragments I currently had, (2) which egg fragments I still needed, and (3) what combinations I could currently make. This solved the first two problems above.
@@ -29,12 +29,10 @@ Text (data) files:
  * `all_combinations.txt` -- list of all combinations needed
 
 ## Usage
-This requires Python >= 3.6.
+Both files require Python >= 3.6 (f-strings!).
 
-`python shell_helper.py`
-Requires the existence of `inventory.txt` and `combinations.txt`.
+`python shell_helper.py` (requires the existence of `inventory.txt` and `combinations.txt`)
 
-`python generate_links.py`
-Requires the existence of `all_combinations.txt`.
+`python generate_links.py` (requires the existence of `all_combinations.txt`)
 
 Neither script does any error handling, because these were made for personal use only. I also don't know anything about how to properly package Python modules, so the organization could likely be better. But that's all part of learning!
